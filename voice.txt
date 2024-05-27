@@ -1,0 +1,15 @@
+"Games"
+{
+    "tf"
+    {
+        "Signatures"
+        {
+            "SV_BroadcastVoiceData"
+            {
+                "library"    "engine"
+                "linux"      "@_Z21SV_BroadcastVoiceDataP7IClientiPcx"
+		"linux64"    "@_Z21SV_BroadcastVoiceDataP7IClientiPcx"
+            }
+       }
+    }
+}
