@@ -91,21 +91,25 @@ extension.o: /home/lorph/extensions/voice/extension.cpp \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_pair.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/move.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/type_traits \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/compare \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/concepts \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_iterator_base_types.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/iterator_concepts.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/ptr_traits.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/ranges_cmp.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_iterator_base_funcs.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/concept_check.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/debug/assertions.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_iterator.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/ptr_traits.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/new \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/exception.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_construct.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/debug/debug.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/predefined_ops.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/allocator.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/32/bits/c++allocator.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ext/new_allocator.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/new \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/exception.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/memoryfwd.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_construct.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_uninitialized.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ext/alloc_traits.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/alloc_traits.h \
@@ -126,18 +130,27 @@ extension.o: /home/lorph/extensions/voice/extension.cpp \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward/binders.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/functional_hash.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/hash_bytes.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/shared_ptr.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ostream \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ios \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/iosfwd \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stringfwd.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/postypes.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cwchar \
   /usr/include/wchar.h /usr/include/i386-linux-gnu/bits/types/wint_t.h \
   /usr/include/i386-linux-gnu/bits/types/mbstate_t.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/shared_ptr_base.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/exception \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/exception_ptr.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/cxxabi_init_exception.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/typeinfo \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/allocated_ptr.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/refwrap.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ext/aligned_buffer.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/nested_exception.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/char_traits.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cstdint \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/localefwd.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/32/bits/c++locale.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/clocale \
+  /usr/include/locale.h /usr/include/i386-linux-gnu/bits/locale.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cctype \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/ios_base.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ext/atomicity.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/32/bits/gthr.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/32/bits/gthr-default.h \
@@ -150,29 +163,19 @@ extension.o: /home/lorph/extensions/voice/extension.cpp \
   /usr/include/i386-linux-gnu/bits/pthread_stack_min-dynamic.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/32/bits/atomic_word.h \
   /usr/include/i386-linux-gnu/sys/single_threaded.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ext/concurrence.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/exception \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/exception_ptr.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/cxxabi_init_exception.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/nested_exception.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/shared_ptr_atomic.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/atomic_base.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/atomic_lockfree_defines.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward/auto_ptr.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/pstl/glue_memory_defs.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/pstl/execution_defs.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/locale_classes.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/string \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/char_traits.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cstdint \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/localefwd.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/32/bits/c++locale.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/clocale \
-  /usr/include/locale.h /usr/include/i386-linux-gnu/bits/locale.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cctype \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/ostream_insert.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/cxxabi_forced.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_algo.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/algorithmfwd.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_heap.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/uniform_int_dist.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/basic_string.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/string_view \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/ranges_base.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/max_size_type.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/numbers \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/string_view.tcc \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ext/string_conversions.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cstdio \
@@ -183,12 +186,64 @@ extension.o: /home/lorph/extensions/voice/extension.cpp \
   /usr/include/i386-linux-gnu/bits/types/error_t.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/charconv.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/basic_string.tcc \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/locale_classes.tcc \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/system_error \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/32/bits/error_constants.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/stdexcept \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/streambuf \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/streambuf.tcc \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/basic_ios.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/locale_facets.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cwctype \
+  /usr/include/wctype.h /usr/include/i386-linux-gnu/bits/wctype-wchar.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/32/bits/ctype_base.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/streambuf_iterator.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/32/bits/ctype_inline.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/locale_facets.tcc \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/basic_ios.tcc \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/ostream.tcc \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/shared_ptr.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/shared_ptr_base.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/allocated_ptr.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/refwrap.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ext/aligned_buffer.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ext/concurrence.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/shared_ptr_atomic.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/atomic_base.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/atomic_lockfree_defines.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/atomic_wait.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/climits \
+  /usr/lib/llvm-14/lib/clang/14.0.0/include/limits.h \
+  /usr/include/limits.h /usr/include/i386-linux-gnu/bits/posix1_lim.h \
+  /usr/include/i386-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/i386-linux-gnu/bits/posix2_lim.h \
+  /usr/include/i386-linux-gnu/bits/xopen_lim.h \
+  /usr/include/i386-linux-gnu/bits/uio_lim.h /usr/include/unistd.h \
+  /usr/include/i386-linux-gnu/bits/posix_opt.h \
+  /usr/include/i386-linux-gnu/bits/environments.h \
+  /usr/include/i386-linux-gnu/bits/confname.h \
+  /usr/include/i386-linux-gnu/bits/getopt_posix.h \
+  /usr/include/i386-linux-gnu/bits/getopt_core.h \
+  /usr/include/i386-linux-gnu/bits/unistd_ext.h \
+  /usr/include/linux/close_range.h /usr/include/syscall.h \
+  /usr/include/i386-linux-gnu/sys/syscall.h \
+  /usr/include/i386-linux-gnu/asm/unistd.h \
+  /usr/include/i386-linux-gnu/asm/unistd_32.h \
+  /usr/include/i386-linux-gnu/bits/syscall.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/std_mutex.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward/auto_ptr.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/ranges_uninitialized.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/ranges_algobase.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/iterator \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stream_iterator.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/uses_allocator_args.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/pstl/glue_memory_defs.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/pstl/execution_defs.h \
   /home/lorph/extensions/sdk/sourcemod/public/amtl/amtl/am-bits.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/algorithm \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_algo.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/algorithmfwd.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_heap.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/uniform_int_dist.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/ranges_algo.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/ranges_util.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/pstl/glue_algorithm_defs.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/functional \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/std_function.h \
@@ -209,17 +264,7 @@ extension.o: /home/lorph/extensions/voice/extension.cpp \
   /home/lorph/extensions/sdk/sourcemod/public/amtl/amtl/am-vector.h \
   /home/lorph/extensions/sdk/sourcemod/public/IHandleSys.h \
   /home/lorph/extensions/sdk/sourcemod/public/sm_platform.h \
-  /usr/include/unistd.h /usr/include/i386-linux-gnu/bits/posix_opt.h \
-  /usr/include/i386-linux-gnu/bits/environments.h \
-  /usr/include/i386-linux-gnu/bits/confname.h \
-  /usr/include/i386-linux-gnu/bits/getopt_posix.h \
-  /usr/include/i386-linux-gnu/bits/getopt_core.h \
-  /usr/include/i386-linux-gnu/bits/unistd_ext.h \
-  /usr/include/linux/close_range.h /usr/include/dirent.h \
-  /usr/include/i386-linux-gnu/bits/dirent.h \
-  /usr/include/i386-linux-gnu/bits/posix1_lim.h \
-  /usr/include/i386-linux-gnu/bits/local_lim.h \
-  /usr/include/linux/limits.h \
+  /usr/include/dirent.h /usr/include/i386-linux-gnu/bits/dirent.h \
   /usr/include/i386-linux-gnu/bits/dirent_ext.h /usr/include/dlfcn.h \
   /usr/include/i386-linux-gnu/bits/dlfcn.h \
   /usr/include/i386-linux-gnu/bits/dl_find_object.h \
@@ -245,26 +290,80 @@ extension.o: /home/lorph/extensions/voice/extension.cpp \
   /home/lorph/extensions/sdk/sourcemod/public/ITextParsers.h \
   /home/lorph/extensions/sdk/sourcemod/public/IRootConsoleMenu.h \
   /home/lorph/extensions/sdk/sourcemod/public/metamod_wrappers.h \
-  /home/lorph/extensions/sdk/sourcemod/public/CDetour/detours.h \
-  /home/lorph/extensions/sdk/sourcemod/public/jit/jit_helpers.h \
-  /home/lorph/extensions/sdk/sourcemod/public/jit/x86/x86_macros.h \
-  /usr/lib/llvm-14/lib/clang/14.0.0/include/limits.h \
-  /usr/include/limits.h /usr/include/i386-linux-gnu/bits/posix2_lim.h \
-  /usr/include/i386-linux-gnu/bits/xopen_lim.h \
-  /usr/include/i386-linux-gnu/bits/uio_lim.h \
-  /home/lorph/extensions/sdk/sourcemod/public/CDetour/detourhelpers.h \
-  /usr/include/i386-linux-gnu/sys/mman.h \
-  /usr/include/i386-linux-gnu/bits/mman.h \
-  /usr/include/i386-linux-gnu/bits/mman-map-flags-generic.h \
-  /usr/include/i386-linux-gnu/bits/mman-linux.h \
-  /usr/include/i386-linux-gnu/bits/mman-shared.h \
-  /home/lorph/extensions/sdk/sourcemod/public/amtl/amtl/os/am-system-errors.h \
+  /home/lorph/extensions/voice/CDetour/detours.h \
+  /home/lorph/extensions/voice/CDetour/safetyhook.hpp \
+  /home/lorph/extensions/voice/CDetour/expected.hpp \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cassert \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/mutex \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/chrono \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ratio \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/limits \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ctime \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/parse_numbers.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/unique_lock.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/optional \
   /home/lorph/extensions/sdk/hl2sdk-tf2/public/iclient.h \
   /home/lorph/extensions/sdk/hl2sdk-tf2/public/inetmsghandler.h \
   /home/lorph/extensions/sdk/hl2sdk-tf2/public/tier0/platform.h \
   /home/lorph/extensions/sdk/hl2sdk-tf2/public/tier0/wchartypes.h \
   /home/lorph/extensions/sdk/hl2sdk-tf2/public/tier0/valve_off.h \
   /home/lorph/extensions/sdk/hl2sdk-tf2/public/tier0/valve_on.h \
-  /usr/include/malloc.h \
+  /home/lorph/extensions/sdk/hl2sdk-tf2/public/tier0/basetypes.h \
+  /home/lorph/extensions/sdk/hl2sdk-tf2/public/tier0/commonmacros.h \
+  /home/lorph/extensions/sdk/hl2sdk-tf2/public/tier0/protected_things.h \
+  /home/lorph/extensions/sdk/hl2sdk-tf2/public/tier0/xbox_codeline_defines.h \
+  /home/lorph/extensions/sdk/hl2sdk-tf2/public/tier0/valve_minmax_on.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/math.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cmath \
+  /usr/include/math.h /usr/include/i386-linux-gnu/bits/math-vector.h \
+  /usr/include/i386-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/i386-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/i386-linux-gnu/bits/fp-logb.h \
+  /usr/include/i386-linux-gnu/bits/fp-fast.h \
+  /usr/include/i386-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/i386-linux-gnu/bits/mathcalls.h \
+  /usr/include/i386-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/i386-linux-gnu/bits/iscanonical.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/specfun.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/tr1/gamma.tcc \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/tr1/special_function_util.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/tr1/bessel_function.tcc \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/tr1/beta_function.tcc \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/tr1/ell_integral.tcc \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/tr1/exp_integral.tcc \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/tr1/hypergeometric.tcc \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/tr1/legendre_function.tcc \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/tr1/modified_bessel_func.tcc \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/tr1/poly_hermite.tcc \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/tr1/poly_laguerre.tcc \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/tr1/riemann_zeta.tcc \
+  /usr/include/signal.h \
+  /usr/include/i386-linux-gnu/bits/signum-generic.h \
+  /usr/include/i386-linux-gnu/bits/signum-arch.h \
+  /usr/include/i386-linux-gnu/bits/types/sig_atomic_t.h \
+  /usr/include/i386-linux-gnu/bits/types/siginfo_t.h \
+  /usr/include/i386-linux-gnu/bits/types/__sigval_t.h \
+  /usr/include/i386-linux-gnu/bits/siginfo-arch.h \
+  /usr/include/i386-linux-gnu/bits/siginfo-consts.h \
+  /usr/include/i386-linux-gnu/bits/siginfo-consts-arch.h \
+  /usr/include/i386-linux-gnu/bits/types/sigval_t.h \
+  /usr/include/i386-linux-gnu/bits/types/sigevent_t.h \
+  /usr/include/i386-linux-gnu/bits/sigevent-consts.h \
+  /usr/include/i386-linux-gnu/bits/sigaction.h \
+  /usr/include/i386-linux-gnu/bits/sigcontext.h \
+  /usr/include/i386-linux-gnu/bits/types/stack_t.h \
+  /usr/include/i386-linux-gnu/sys/ucontext.h \
+  /usr/include/i386-linux-gnu/bits/sigstack.h \
+  /usr/include/i386-linux-gnu/bits/sigstksz.h \
+  /usr/include/i386-linux-gnu/bits/ss_flags.h \
+  /usr/include/i386-linux-gnu/bits/types/struct_sigstack.h \
+  /usr/include/i386-linux-gnu/bits/sigthread.h \
+  /usr/include/i386-linux-gnu/bits/signal_ext.h /usr/include/malloc.h \
   /home/lorph/extensions/sdk/hl2sdk-tf2/public/tier0/annotations.h \
-  /home/lorph/extensions/sdk/hl2sdk-tf2/public/tier0/fasttimer.h
+  /home/lorph/extensions/sdk/hl2sdk-tf2/public/tier0/fasttimer.h \
+  /home/lorph/extensions/sdk/hl2sdk-tf2/common/userid.h \
+  /home/lorph/extensions/sdk/hl2sdk-tf2/public/tier1/strtools.h \
+  /home/lorph/extensions/sdk/hl2sdk-tf2/public/steam/steamclientpublic.h \
+  /home/lorph/extensions/sdk/hl2sdk-tf2/public/steam/steamtypes.h \
+  /home/lorph/extensions/sdk/hl2sdk-tf2/public/steam/steamuniverse.h \
+  /home/lorph/extensions/sdk/hl2sdk-tf2/common/steamcommon.h
