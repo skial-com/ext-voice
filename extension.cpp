@@ -15,8 +15,8 @@ IGameConfig *g_pGameConf;
 IForward *g_pBroadcastVoice;
 
 CDetour *BroadcastVoiceDataDetour;
-void (*BroadcastVoiceData_Actual)(IClient* iclient, int unknown, char *pVoiceData, long *nSamples);
-void BroadcastVoiceData(IClient* iclient, int unknown, char *pVoiceData, long *nSamples) {
+void (*BroadcastVoiceData_Actual)(IClient* iclient, int nBytes, char *pVoiceData, int64_t *nSamples);
+void BroadcastVoiceData(IClient* iclient, int nBytes, char *pVoiceData, int64_t *nSamples) {
 	int client = iclient->GetPlayerSlot() + 1;
 	if(g_pBroadcastVoice) {
 		cell_t result = 0;
@@ -25,7 +25,7 @@ void BroadcastVoiceData(IClient* iclient, int unknown, char *pVoiceData, long *n
 		if(result == Pl_Handled || result == Pl_Stop)
 			return;
 	}
-	BroadcastVoiceData_Actual(iclient, unknown, pVoiceData, nSamples);
+	BroadcastVoiceData_Actual(iclient, nBytes, pVoiceData, nSamples);
 }
 
 void Extension::SDK_OnAllLoaded()

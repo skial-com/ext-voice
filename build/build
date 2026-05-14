@@ -1,10 +1,23 @@
 #!/bin/bash
 
-ln -s ../sdk/hl2sdk-manifests ../
 
 python3 ../configure.py -s tf2 \
-	--hl2sdk-root `realpath ../../sdk` \
-	--mms-path ../../sdk/mmsource \
-	--sm-path ../../sdk/sourcemod \
+	--hl2sdk-root `realpath ../../../sdk` \
+	--mms-path ../../../sdk/mmsource \
+	--sm-path ../../../sdk/sourcemod \
 	--targets x86,x86_64
 ambuild
+
+# Stage binaries into ~/tf2dev/extensions/{,x64}
+mkdir -p ../../../dist/extensions/x64
+shopt -s nullglob
+for f in package/addons/sourcemod/extensions/*.so \
+         package/addons/*/bin/*.so \
+         package/addons/*/bin/linux/*.so; do
+    cp -u --remove-destination "$f" ../../../dist/extensions/
+done
+for f in package/addons/sourcemod/extensions/x64/*.so \
+         package/addons/*/bin/linuxsteamrt64/*.so \
+         package/addons/*/bin/x64/*.so; do
+    cp -u --remove-destination "$f" ../../../dist/extensions/x64/
+done
