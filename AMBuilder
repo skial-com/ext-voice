@@ -7,6 +7,7 @@ extName = projectName + '.ext.'
 # smsdk_ext.cpp will be automatically added later
 sourceFiles = [
   'extension.cpp',
+  'symbol_resolve.cpp',
 
   'CDetour/Zydis.c',
   'CDetour/safetyhook.cpp',
