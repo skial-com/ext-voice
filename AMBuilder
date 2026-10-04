@@ -9,10 +9,21 @@ sourceFiles = [
   'extension.cpp',
   'symbol_resolve.cpp',
 
-  'CDetour/Zydis.c',
-  'CDetour/safetyhook.cpp',
-  'CDetour/detours.cpp',
 ]
+
+# CDetour and SafetyHook come from SourceMod's public/ tree
+sm_public = os.path.join(Extension.sm_root, 'public')
+sourceFiles += [os.path.join(sm_public, 'CDetour', 'detours.cpp')]
+sourceFiles += [os.path.join(sm_public, 'safetyhook', 'src', f) for f in [
+  'allocator.cpp',
+  'easy.cpp',
+  'inline_hook.cpp',
+  'mid_hook.cpp',
+  'os.linux.cpp',
+  'utility.cpp',
+  'vmt_hook.cpp',
+]]
+sourceFiles += [os.path.join(sm_public, 'safetyhook', 'zydis', 'Zydis.c')]
 
 project = builder.LibraryProject(extName)
 

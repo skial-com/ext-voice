@@ -56,7 +56,7 @@ bool Extension::SDK_OnLoad(char *error, size_t maxlength, bool late)
 {
 	// The detour target is resolved directly by mangled symbol via
 	// GetSigAddress(); this fork of CDetour has no gamedata path.
-	CDetourManager::Init(g_pSM->GetScriptingEngine());
+	CDetourManager::Init(g_pSM->GetScriptingEngine(), NULL);
 
 	void* addr = GetSigAddress("engine_srv.so", "_Z21SV_BroadcastVoiceDataP7IClientiPcx");
 	if(addr == NULL)

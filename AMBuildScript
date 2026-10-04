@@ -173,7 +173,7 @@ class ExtensionConfig(object):
       self.configure_windows(cxx)
 
     cxx.includes += [
-      os.path.join(builder.sourcePath, 'CDetour'),
+      os.path.join(self.sm_root, 'public', 'CDetour'), os.path.join(self.sm_root, 'public', 'safetyhook', 'include'), os.path.join(self.sm_root, 'public', 'safetyhook', 'zydis'),
       os.path.join(builder.sourcePath, 'public'),
       os.path.join(self.sm_root, 'public'),
     ]
